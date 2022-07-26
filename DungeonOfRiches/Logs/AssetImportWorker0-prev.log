@@ -15,7 +15,7 @@ C:/Users/luraf/OneDrive/Documentos/GitHub/DungeonsRL/DungeonOfRiches
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59698
+59751
 Successfully changed project path to: C:/Users/luraf/OneDrive/Documentos/GitHub/DungeonsRL/DungeonOfRiches
 C:/Users/luraf/OneDrive/Documentos/GitHub/DungeonsRL/DungeonOfRiches
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/luraf/OneDrive/Documentos/GitHub/DungeonsRL/DungeonOfRiches
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 154.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 153.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013941 seconds.
+Registered in 0.013430 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 203.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 207.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.271 seconds
+- Completed reload, in  1.245 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1272ms)
-		BeginReloadAssembly (174ms)
+	ReloadAssembly (1245ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (896ms)
-			LoadAssemblies (169ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (131ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
+			SetupTypeCache (193ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (558ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (572ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (203ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (85ms)
+				RefreshPlugins (208ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011499 seconds.
+Registered in 0.016770 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\luraf\OneDrive\Documentos\GitHub\DungeonsRL\DungeonOfRiches\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\luraf\OneDrive\Documentos\GitHub\DungeonsRL\DungeonOfRiches\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.977 seconds
+- Completed reload, in  1.920 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1978ms)
-		BeginReloadAssembly (208ms)
+	ReloadAssembly (1921ms)
+		BeginReloadAssembly (209ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1555ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1498ms)
 			LoadAssemblies (157ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (543ms)
+			SetupTypeCache (483ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (696ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (723ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (193ms)
-				ProcessInitializeOnLoadAttributes (426ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (435ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3843.
 Memory consumption went from 118.4 MB to 118.3 MB.
-Total: 5.551000 ms (FindLiveObjects: 0.366700 ms CreateObjectMapping: 0.309100 ms MarkObjects: 4.723000 ms  DeleteObjects: 0.151000 ms)
+Total: 6.109100 ms (FindLiveObjects: 0.424400 ms CreateObjectMapping: 0.277400 ms MarkObjects: 5.237100 ms  DeleteObjects: 0.169000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,7 +160,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 76152.754240 seconds.
-  path: Assets/Scenes/RafaTestes.unity
-  artifactKey: Guid(aa9b4659161fc42449d639af6fe5fe6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/RafaTestes.unity using Guid(aa9b4659161fc42449d639af6fe5fe6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f498d6dd2ce625ab09bcf5d87c088420') in 0.008607 seconds 
+  Time since last request: 76228.250944 seconds.
+  path: Assets/Materials/BlueIce.mat
+  artifactKey: Guid(12b5fffa173a2d144af2f7eb0cbcf977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BlueIce.mat using Guid(12b5fffa173a2d144af2f7eb0cbcf977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b1727cb8ca54bf4c29c549a4e8c3db') in 0.234679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.578591 seconds.
+  path: Assets/Materials/BlueIce.mat
+  artifactKey: Guid(12b5fffa173a2d144af2f7eb0cbcf977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BlueIce.mat using Guid(12b5fffa173a2d144af2f7eb0cbcf977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5774d16acb4077ff2740e12770e88bb7') in 0.020500 seconds 
