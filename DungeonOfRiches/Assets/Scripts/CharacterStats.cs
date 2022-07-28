@@ -6,12 +6,13 @@ public class CharacterStats : MonoBehaviour
 {
     //Stats
     public int ID;
+    public float CharType;
     public float Health;
     public float Mana;
     public float Strength;
     public float Intelligence;
-    public float AtackSpeed;
-    public float AtackRange;
+    public float AttackSpeed;
+    public float AttackRange;
     public float MoveSpeed;
     public float AbilityHaste;
     public float CritChance;
@@ -38,23 +39,29 @@ public class CharacterStats : MonoBehaviour
         }
     }
 
-    void SetToBaseStats(int id) 
+    public void SetToBaseStats(int id) 
     {
-        Health = BaseCharacterStats.Stats[id, 0];
-        Mana = BaseCharacterStats.Stats[id, 1];
-        Strength = BaseCharacterStats.Stats[id, 2];
-        Intelligence = BaseCharacterStats.Stats[id, 3];
-        AtackSpeed = BaseCharacterStats.Stats[id, 4];
-        AtackRange = BaseCharacterStats.Stats[id, 5];
-        MoveSpeed = BaseCharacterStats.Stats[id, 6];
-        AbilityHaste = BaseCharacterStats.Stats[id, 7];
-        CritChance = BaseCharacterStats.Stats[id, 8];
-        Luck = BaseCharacterStats.Stats[id, 9];
-        Armor = BaseCharacterStats.Stats[id, 10];
-        FireRes = BaseCharacterStats.Stats[id, 11];
-        IceRes = BaseCharacterStats.Stats[id, 12];
-        LightingRes = BaseCharacterStats.Stats[id, 13];
-        ToxicRes = BaseCharacterStats.Stats[id, 14];
-        ArmorPen = BaseCharacterStats.Stats[id, 15];
+        CharType = BaseCharacterStats.Stats[id, 0];
+        Health = BaseCharacterStats.Stats[id, 1];
+        Mana = BaseCharacterStats.Stats[id, 2];
+        Strength = BaseCharacterStats.Stats[id, 3];
+        Intelligence = BaseCharacterStats.Stats[id, 4];
+        AttackSpeed = BaseCharacterStats.Stats[id, 5];
+        AttackRange = BaseCharacterStats.Stats[id, 6];
+        MoveSpeed = BaseCharacterStats.Stats[id, 7];
+        AbilityHaste = BaseCharacterStats.Stats[id, 8];
+        CritChance = BaseCharacterStats.Stats[id, 9];
+        Luck = BaseCharacterStats.Stats[id, 10];
+        Armor = BaseCharacterStats.Stats[id, 11];
+        FireRes = BaseCharacterStats.Stats[id, 12];
+        IceRes = BaseCharacterStats.Stats[id, 13];
+        LightingRes = BaseCharacterStats.Stats[id, 14];
+        ToxicRes = BaseCharacterStats.Stats[id, 15];
+        ArmorPen = BaseCharacterStats.Stats[id, 166];
+    }
+    public float Attacked(float PDMG, float FDMG, float IDMG, float LDMG, float TDMG,
+                         float APEN) 
+    {
+        return 0;
     }
 }
