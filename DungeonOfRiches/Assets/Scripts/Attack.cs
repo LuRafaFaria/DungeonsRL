@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
-    public AttackStats;
+    public int ID;
     public GameObject Sender;
     public int Target;
     private void OnTriggerEnter(Collider col)
