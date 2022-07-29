@@ -24,6 +24,8 @@ public class CharacterStats : MonoBehaviour
     public float ToxicRes;
     public float ArmorPen;
 
+    public float CurrentHealth;
+    public float CurrentMana;
     public bool Imortal;
 
     void Start()
@@ -59,9 +61,10 @@ public class CharacterStats : MonoBehaviour
         ToxicRes = BaseCharacterStats.Stats[id, 15];
         ArmorPen = BaseCharacterStats.Stats[id, 166];
     }
-    public float Attacked(float PDMG, float FDMG, float IDMG, float LDMG, float TDMG,
-                         float APEN) 
+    public float Attacked(float DMG, float TypeDMG, float APEN) 
     {
-        return 0;
+        float FinalDamage = DMG * (100 / (100 + (Armor - APEN)));
+        CurrentHealth -= FinalDamage;
+        return FinalDamage;
     }
 }
